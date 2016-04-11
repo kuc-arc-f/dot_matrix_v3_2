@@ -16,7 +16,8 @@ class mqttPubClass:
     def send_pubw(self, sPay ,sTopic):
 		clsConst  = com_appConst.appConstClass()
 		iWait=0
-		iAdd=7
+#		iAdd=7
+		iAdd=10
 		if (len(sPay) < 1):
 			return
 #		if( len(sPay) > 20 ):

@@ -49,7 +49,7 @@ if __name__ == "__main__":
 					clsPub.send_pubw(sTemp ,mTopic)
 				else:
 					sHHMM = datetime.now().strftime("%H:%M")
-					sTemp=clsSend.convert_zenkau("じかん　"+ sHHMM)
+					sTemp=clsSend.convert_zenkau("じかん"+ sHHMM)
 					print "sTemp2="+sTemp
 					clsPub.send_pubw(sTemp ,mTopic)
 				iTyp=iTyp+1
